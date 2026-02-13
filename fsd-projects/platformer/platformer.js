@@ -27,28 +27,22 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
-
-
-
-
-    // TODO 3 - Create Collectables
-
-
-
+    createPlatform(400,620,200,20)
+    createPlatform(800,500,200,20,'red')
+    createPlatform(1200,400,200,20,)
+    createCollectable('database',1210,200,1,1)
+    createCollectable('database',800,300,1,1) 
+    createCollectable('database',500,500,1,1)
+    createCannon('right',300,1000)
+    createCannon('top',500,1000)
+    createCannon('top',800,1000)
+   
     
-    // TODO 4 - Create Cannons
-
-
-    
-    
-    //////////////////////////////////
-    // ONLY CHANGE ABOVE THIS POINT //
-    //////////////////////////////////
-  }
+   }
 
   registerSetup(setup);
-});
+})
